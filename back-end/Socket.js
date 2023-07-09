@@ -13,7 +13,6 @@ const addSocketEventListeners = (io) => {
     // });
 
     usersSocket(io, socket, socket.id);
-    gamesSocket(io, socket, socket.id);
   });
 };
 
